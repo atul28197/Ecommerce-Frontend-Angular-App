@@ -1,9 +1,10 @@
 import {
   BidiModule
-} from "./chunk-GNE6WAFF.js";
+} from "./chunk-5K64E3XH.js";
 import {
   isPlatformBrowser
-} from "./chunk-VXFGAIQJ.js";
+} from "./chunk-IDDS4UFH.js";
+import "./chunk-3MHDZTDU.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -30,7 +31,8 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵqueryRefresh
-} from "./chunk-ZFZA6RUP.js";
+} from "./chunk-4AQV2YEL.js";
+import "./chunk-BFGTZAMV.js";
 
 // node_modules/@angular/cdk/fesm2022/_platform-chunk.mjs
 var hasV8BreakIterator;

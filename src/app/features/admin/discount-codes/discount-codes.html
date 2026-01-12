@@ -1,0 +1,13 @@
+<h2>Generate Discount Code</h2>
+
+<button (click)="gen()" [disabled]="loading">
+  {{ loading ? 'Generating...' : 'Generate Code' }}
+</button>
+
+<div *ngIf="error" style="color: red; margin-top: 10px;">
+  {{ error }}
+</div>
+
+<div *ngIf="code" style="margin-top: 15px;">
+  <strong>Generated Code:</strong> {{ code }}
+</div>

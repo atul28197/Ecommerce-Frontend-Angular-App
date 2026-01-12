@@ -1,0 +1,6 @@
+<h2>Products</h2>
+<div *ngFor="let p of products">
+  {{ p.title }} — ₹{{ p.price }}
+  <a [routerLink]="['/admin/products', p.id, 'edit']">Edit</a>
+</div>
+<a [routerLink]="['/admin/products/create']">+ Add Product</a>
