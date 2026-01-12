@@ -4,4 +4,5 @@ import { authGuard } from '../../core/guards/auth.guard';
 
 export const CART_ROUTES: Routes = [
   { path: '', component: Cart, canActivate: [authGuard] }
+  
 ];
